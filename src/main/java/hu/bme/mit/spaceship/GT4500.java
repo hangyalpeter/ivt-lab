@@ -77,7 +77,11 @@ public class GT4500 implements SpaceShip {
         break;
 
       case ALL:
+<<<<<<< HEAD
         // try to fire both of the torpedo stores this is the line which I changed to induce merge conflict
+=======
+        // try to fire both of the torpedo stores changing this line in another way
+>>>>>>> branch-B
 
         boolean primarySuccess = false;
         boolean secondarySuccess = false;
