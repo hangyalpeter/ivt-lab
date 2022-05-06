@@ -1,0 +1,12 @@
+call fireTorpedo once with not empty torpedostore and expect to return true
+
+call fireTorpedo once with empty torpedostore and expect to return false
+
+call fireTorpedo twice with not empty torpedostore and expect to return true andverify that both stores was fired
+
+call fireTorpedo twice with not empty primary and empty secondary expect to return true
+
+call fireTorpedo with firing mode all: with not empty firestores expect to return true
+call fireTorpedo with firing mode all: with empty secondaryfirestores and not empty primary expect to return true
+
+call fireTorpedo with firing mode all: with empty firestores expect to return false
